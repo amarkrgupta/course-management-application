@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+ 
+<html xmlns:th="http://www.thymeleaf.org">
+ 
+<head th:replace="layouts :: header"></head>
+
+<body>
+ 
+<nav th:replace="layouts :: foo"></nav>	
+	<div class="container">
+		<form action="/projects/save" th:object="${project}" method="POST">
+		<br>
+		<div class="form-group row">
+		<input type="text" placeholder="Project Name" th:field="${project.name}">
+		</div>
+		
+		<div class="form-group row">
+		<select th:field="${project.stage}">
+			<option th:value="NOTSTARTED"> Not Started</option>
+			<option th:value="INPROGRESS"> In Progress</option>
+			<option th:value="COMPLETED"> Completed</option>
+		</select>
+		</div>
+		
+		<div class="form-group row">
+		<textarea placeholder="Enter Project Description" th:field="${project.description}"></textarea></div>
+		
+		<div class="form-group row">
+		<select th:field="*{employees}" multiple="multiple">
+			<option th:each="employee : ${allEmployees}"
+					th:value="${employee.employeeId}"
+					th:text="${employee.firstName}">
+			</option>		
+		</select>
+		</div>
+		<div class="form-group row">
+	   <input type="hidden" name="_csrf" th:value="${_csrf.token}">	
+	   </div>	
+		<button class="btn btn-info col-2" type="submit">Enter Project</button>
+
+		
+		</form>
+	</div>
+	
+</body>
+ 
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+ 
+<html xmlns:th="http://www.thymeleaf.org">
+ 
+<head th:replace="layouts :: header"></head>
+
+<body>
+ 
+<nav th:replace="layouts :: foo">
+</nav>	
+<div class="container">
+<form action="/employees/save" method="post" th:object="${employee}">
+<br>
+<!-- This will be used to bind to the object that was clicked on (FOR UPDATES) -->
+<div class="form-group row">
+<input type="hidden" th:field="${employee.employeeId}"/>
+</div>
+
+<div class="form-group row">
+<input type="text" placeholder="First Name" th:field="${employee.firstName}">
+<span style="color:red" th:if="${#fields.hasErrors('firstName')}"
+	  th:errors="${employee.firstName}"	>
+</span>
+</div>
+<div class="form-group row">
+<input type="text" placeholder="Last Name" th:field="${employee.lastName}">
+<span style="color:red" th:if="${#fields.hasErrors('lastName')}"
+	  th:errors="${employee.lastName}"	></span>
+</div>
+<div class="form-group row">
+<input type="text" placeholder="Email" th:field="${employee.email}">
+<span style="color:red" th:if="${#fields.hasErrors('email')}"
+	  th:errors="${employee.email}"	></span>
+</div>
+
+<input type="hidden" name="_csrf" th:value="${_csrf.token}">
+<input type="submit" class="btn btn-info col-2" value="Enter Employee">
+</form>
+</div>
+</body>
+</html>

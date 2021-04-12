@@ -1,0 +1,546 @@
+2021-04-12 11:45:11.976  WARN 12408 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=17h15m17s342ms699µs720ns).
+2021-04-12 12:43:38.092  WARN 12408 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=4m26s59ms416µs404ns).
+2021-04-12 14:03:26.959  WARN 12408 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=3m48s787ms33µs761ns).
+2021-04-12 15:08:58.044  INFO 12408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 15:08:58.137  INFO 12408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 89 ms
+2021-04-12 15:08:58.512 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2021-04-12 15:08:58.512 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:08:59.064 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=3.0.0, projectsList=[com.jrp.pma.entities.Project@2b79fbf6, com.jrp.pma.entities.Project@4d92d18d, com.jrp.pma.entities.Project@7d9ea6fa, com.jrp.pma.entities.Project@40f13d58, com.jrp.pma.entities.Project@2433c8fb, com.jrp.pma.entities.Project@7f767b49, com.jrp.pma.entities.Project@77d7bb2b, com.jrp.pma.entities.Project@3e854374], projectStatusCnt=[{"value":4,"label":"INPROGRESS"},{"value":3,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}], employeesListProjectCnt=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@397168ea, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3c6c08dc, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3c3d9f9c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@39b124b5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@bb52d51, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5743ee13, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7524a18, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@377652cb, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@150b3ed1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5df07915, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4867ea39, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4d8209f4]}]
+2021-04-12 15:08:59.064 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:08:59.648 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@113df0d4]]
+2021-04-12 15:08:59.648 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:08:59.678 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@113df0d4]]
+2021-04-12 15:08:59.680 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:09:01.610 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:09:01.611 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:09:01.633 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@136a9102, com.jrp.pma.entities.Employee@d5c158, com.jrp.pma.entities.Employee@20d93be3, com.jrp.pma.entities.Employee@7000cf03, com.jrp.pma.entities.Employee@3725b280, com.jrp.pma.entities.Employee@19d46a3d, com.jrp.pma.entities.Employee@70bb4cc7, com.jrp.pma.entities.Employee@635ed04, com.jrp.pma.entities.Employee@1c9efef0, com.jrp.pma.entities.Employee@26a1eadc, com.jrp.pma.entities.Employee@cd647bb, com.jrp.pma.entities.Employee@25a2c6e8, com.jrp.pma.entities.Employee@4ea0c5d2]}]
+2021-04-12 15:09:01.633 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:09:03.062 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2021-04-12 15:09:03.062 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:09:03.063 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@2783829f}]
+2021-04-12 15:09:03.064 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:09:06.475 DEBUG 12408 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.saveEmployeeData() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@2c43c88c, org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'email': rejected value []; codes [NotBlank.employee.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [must not be blank]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]}, com.jrp.pma.entities.Employee@2c43c88c, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'email': rejected value []; codes [NotBlank.employee.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [must not be blank]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]]
+2021-04-12 15:09:06.475 DEBUG 12408 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:09:06.477 DEBUG 12408 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.saveEmployeeData() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@2c43c88c, org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'email': rejected value []; codes [NotBlank.employee.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [must not be blank]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]}, com.jrp.pma.entities.Employee@2c43c88c, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'email': rejected value []; codes [NotBlank.employee.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [must not be blank]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]]
+2021-04-12 15:09:06.477 DEBUG 12408 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:09:49.457 DEBUG 12408 --- [http-nio-8080-exec-3] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.saveEmployeeData() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@47b57946, org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'email': rejected value [a]; codes [Email.employee.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@4151def0,.*]; default message [Must be a valid email]}, com.jrp.pma.entities.Employee@47b57946, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'email': rejected value [a]; codes [Email.employee.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@4151def0,.*]; default message [Must be a valid email]]
+2021-04-12 15:09:49.458 DEBUG 12408 --- [http-nio-8080-exec-3] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:09:49.458 DEBUG 12408 --- [http-nio-8080-exec-3] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.saveEmployeeData() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@47b57946, org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'email': rejected value [a]; codes [Email.employee.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@4151def0,.*]; default message [Must be a valid email]}, com.jrp.pma.entities.Employee@47b57946, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'email': rejected value [a]; codes [Email.employee.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@4151def0,.*]; default message [Must be a valid email]]
+2021-04-12 15:09:49.458 DEBUG 12408 --- [http-nio-8080-exec-3] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:15:16.082  INFO 12408 --- [Thread-51] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 15:15:16.086  INFO 12408 --- [Thread-51] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-12 15:15:16.476  INFO 12408 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Starting ProjectManagementApplication using Java 15.0.1 on DESKTOP-MR6MH23 with PID 12408 (D:\STS\project-management\target\classes started by AMAR in D:\STS\project-management)
+2021-04-12 15:15:16.476 DEBUG 12408 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-04-12 15:15:16.476  INFO 12408 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : The following profiles are active: dev
+2021-04-12 15:15:16.806  INFO 12408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-12 15:15:16.829  INFO 12408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2021-04-12 15:15:16.987  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:16.990  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'relProviderPluginRegistry' of type [org.springframework.plugin.core.support.PluginRegistryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:16.994  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'relProviderPluginRegistry' of type [org.springframework.plugin.core.OrderAwarePluginRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:16.997  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean '_relProvider' of type [org.springframework.hateoas.server.core.DelegatingLinkRelationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.000  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'messageResolver' of type [org.springframework.hateoas.mediatype.MessageSourceResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.002  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.003  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.012  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.013  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.014  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.030  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.031  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.033  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.033  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.034  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.038  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.040  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.043  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.data.rest-org.springframework.boot.autoconfigure.data.rest.RepositoryRestProperties' of type [org.springframework.boot.autoconfigure.data.rest.RepositoryRestProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.043  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'springBootRepositoryRestConfigurer' of type [org.springframework.boot.autoconfigure.data.rest.SpringBootRepositoryRestConfigurer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.044  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'configurerDelegate' of type [org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerDelegate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.047  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration' of type [org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.049  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'stringHttpMessageConverter' of type [org.springframework.http.converter.StringHttpMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.050  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration' of type [org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.051  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.054  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.059  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.066  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mappingJackson2HttpMessageConverter' of type [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.066  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' of type [org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:17.190  INFO 12408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 15:15:17.223  INFO 12408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 743 ms
+2021-04-12 15:15:17.335  INFO 12408 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2021-04-12 15:15:18.026  INFO 12408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-12 15:15:18.398  WARN 12408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-12 15:15:18.531  INFO 12408 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@83bf099, org.springframework.security.web.context.SecurityContextPersistenceFilter@41f58ab, org.springframework.security.web.header.HeaderWriterFilter@78371d80, org.springframework.security.web.csrf.CsrfFilter@1c8c0ea1, org.springframework.security.web.authentication.logout.LogoutFilter@6f6b5f10, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6218169e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5a860a17, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@746b7333, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@376a5e56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77718e26, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@616216a6, org.springframework.security.web.session.SessionManagementFilter@781aa80f, org.springframework.security.web.access.ExceptionTranslationFilter@a47202e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cf87610]
+2021-04-12 15:15:18.637  INFO 12408 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 15:15:18.874  INFO 12408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-12 15:15:18.896  INFO 12408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 15:15:18.903  INFO 12408 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 2.473 seconds (JVM running for 78403.004)
+2021-04-12 15:15:18.906  INFO 12408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-12 15:15:30.399  INFO 12408 --- [Thread-58] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 15:15:30.401  INFO 12408 --- [Thread-58] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-12 15:15:30.555  INFO 12408 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Starting ProjectManagementApplication using Java 15.0.1 on DESKTOP-MR6MH23 with PID 12408 (D:\STS\project-management\target\classes started by AMAR in D:\STS\project-management)
+2021-04-12 15:15:30.555 DEBUG 12408 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-04-12 15:15:30.555  INFO 12408 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : The following profiles are active: dev
+2021-04-12 15:15:30.800  INFO 12408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-12 15:15:30.818  INFO 12408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+2021-04-12 15:15:30.947  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.949  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'relProviderPluginRegistry' of type [org.springframework.plugin.core.support.PluginRegistryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.954  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'relProviderPluginRegistry' of type [org.springframework.plugin.core.OrderAwarePluginRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.957  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean '_relProvider' of type [org.springframework.hateoas.server.core.DelegatingLinkRelationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.961  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'messageResolver' of type [org.springframework.hateoas.mediatype.MessageSourceResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.963  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.964  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.977  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.978  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.980  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.988  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.989  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.991  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.991  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.993  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.997  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:30.999  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.003  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.data.rest-org.springframework.boot.autoconfigure.data.rest.RepositoryRestProperties' of type [org.springframework.boot.autoconfigure.data.rest.RepositoryRestProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.004  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'springBootRepositoryRestConfigurer' of type [org.springframework.boot.autoconfigure.data.rest.SpringBootRepositoryRestConfigurer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.005  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'configurerDelegate' of type [org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerDelegate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.009  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration' of type [org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.011  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'stringHttpMessageConverter' of type [org.springframework.http.converter.StringHttpMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.013  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration' of type [org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.014  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.018  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.020  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.028  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mappingJackson2HttpMessageConverter' of type [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.029  INFO 12408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' of type [org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-12 15:15:31.123  INFO 12408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-12 15:15:31.153  INFO 12408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 595 ms
+2021-04-12 15:15:31.264  INFO 12408 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2021-04-12 15:15:31.838  INFO 12408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-12 15:15:32.133  WARN 12408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-12 15:15:32.194  INFO 12408 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b6bfb3f, org.springframework.security.web.context.SecurityContextPersistenceFilter@24b7180a, org.springframework.security.web.header.HeaderWriterFilter@71001177, org.springframework.security.web.csrf.CsrfFilter@30426143, org.springframework.security.web.authentication.logout.LogoutFilter@1618c51a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1cca5aab, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2ed61fd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5c09a34c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1563aea6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64998ed4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55483702, org.springframework.security.web.session.SessionManagementFilter@7dc29cb, org.springframework.security.web.access.ExceptionTranslationFilter@401e3f6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d749798]
+2021-04-12 15:15:32.277  INFO 12408 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 15:15:32.491  INFO 12408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-12 15:15:32.511  INFO 12408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-12 15:15:32.520  INFO 12408 --- [restartedMain] c.jrp.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 2.006 seconds (JVM running for 78416.622)
+2021-04-12 15:15:32.523  INFO 12408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-12 15:15:43.170  INFO 12408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-12 15:15:43.174  INFO 12408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-04-12 15:15:43.200 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2021-04-12 15:15:43.200 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:15:43.236 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=3.0.0, projectsList=[com.jrp.pma.entities.Project@6b7a9da8, com.jrp.pma.entities.Project@4e647785, com.jrp.pma.entities.Project@4953f34d, com.jrp.pma.entities.Project@312feb9a, com.jrp.pma.entities.Project@e07a7ca, com.jrp.pma.entities.Project@63b231d0, com.jrp.pma.entities.Project@352d7f70, com.jrp.pma.entities.Project@7b102174], projectStatusCnt=[{"value":4,"label":"INPROGRESS"},{"value":3,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}], employeesListProjectCnt=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6ec329fc, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6aaff563, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3b54515d, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3f43f20c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4838b0d1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5d294058, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@44ee3c19, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@641d651a, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@69aeff70, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7e12499d, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4ba9bcb2, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@44932568]}]
+2021-04-12 15:15:43.236 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:16:45.015 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2021-04-12 15:16:45.015 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:16:45.027 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.jrp.pma.entities.Project@3d33c5c6, com.jrp.pma.entities.Project@65f90112, com.jrp.pma.entities.Project@ff02ea4, com.jrp.pma.entities.Project@1e52d910, com.jrp.pma.entities.Project@3dec22e9, com.jrp.pma.entities.Project@103045d7, com.jrp.pma.entities.Project@4a0e9fa3, com.jrp.pma.entities.Project@588265c8]}]
+2021-04-12 15:16:45.028 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:16:47.790 DEBUG 12408 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:16:47.791 DEBUG 12408 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:16:47.803 DEBUG 12408 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@5e996e44, com.jrp.pma.entities.Employee@6d282fee, com.jrp.pma.entities.Employee@6971b236, com.jrp.pma.entities.Employee@50631963, com.jrp.pma.entities.Employee@459da665, com.jrp.pma.entities.Employee@6966b667, com.jrp.pma.entities.Employee@d62597f, com.jrp.pma.entities.Employee@4502e1b1, com.jrp.pma.entities.Employee@6d84c9fa, com.jrp.pma.entities.Employee@310d9fa3, com.jrp.pma.entities.Employee@2e3b915c, com.jrp.pma.entities.Employee@7c66e243, com.jrp.pma.entities.Employee@37e62f2c]}]
+2021-04-12 15:16:47.803 DEBUG 12408 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:17:00.517 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2021-04-12 15:17:00.517 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:17:00.517 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@559c4d61}]
+2021-04-12 15:17:00.517 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:17:03.207 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.saveEmployeeData() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@58264260, org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'email': rejected value []; codes [NotBlank.employee.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [must not be blank]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]}, com.jrp.pma.entities.Employee@58264260, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'email': rejected value []; codes [NotBlank.employee.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [must not be blank]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]]
+2021-04-12 15:17:03.207 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:17:03.208 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.saveEmployeeData() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@58264260, org.springframework.validation.BindingResult.employee=org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'email': rejected value []; codes [NotBlank.employee.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [must not be blank]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]}, com.jrp.pma.entities.Employee@58264260, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Must give a last name]
+Field error in object 'employee' on field 'email': rejected value []; codes [NotBlank.employee.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [must not be blank]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],100,1]; default message [size must be between 1 and 100]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Must give a first name]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],100,1]; default message [size must be between 1 and 100]]
+2021-04-12 15:17:03.208 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:17:12.346 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2021-04-12 15:17:12.346 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:17:12.354 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.jrp.pma.entities.Project@110a13ff, com.jrp.pma.entities.Project@2b43cb62, com.jrp.pma.entities.Project@1080e75d, com.jrp.pma.entities.Project@1d76ddfa, com.jrp.pma.entities.Project@5c22b040, com.jrp.pma.entities.Project@698f787d, com.jrp.pma.entities.Project@7e22d01e, com.jrp.pma.entities.Project@55905b2d]}]
+2021-04-12 15:17:12.354 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:17:13.561 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjectForm() with arguments[s] = [{}]
+2021-04-12 15:17:13.562 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:17:13.570 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjectForm() with arguments[s] = [{project=com.jrp.pma.entities.Project@18f90a3d, allEmployees=[com.jrp.pma.entities.Employee@f3a9548, com.jrp.pma.entities.Employee@3b2eb24e, com.jrp.pma.entities.Employee@59e8b35f, com.jrp.pma.entities.Employee@74068ebf, com.jrp.pma.entities.Employee@2f4dd5a2, com.jrp.pma.entities.Employee@61bfaec7, com.jrp.pma.entities.Employee@7dd19be4, com.jrp.pma.entities.Employee@3d629197, com.jrp.pma.entities.Employee@7cc3a35c, com.jrp.pma.entities.Employee@6096e395, com.jrp.pma.entities.Employee@11695ad8, com.jrp.pma.entities.Employee@382e8f4b, com.jrp.pma.entities.Employee@59161251]}]
+2021-04-12 15:17:13.570 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:40:47.886 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2021-04-12 15:40:47.886 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:40:47.913 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=3.0.0, projectsList=[com.jrp.pma.entities.Project@595004f0, com.jrp.pma.entities.Project@12fd91b2, com.jrp.pma.entities.Project@1b51ccbd, com.jrp.pma.entities.Project@708af55f, com.jrp.pma.entities.Project@2924183a, com.jrp.pma.entities.Project@572a6cad, com.jrp.pma.entities.Project@420b76d1, com.jrp.pma.entities.Project@658c53c2], projectStatusCnt=[{"value":4,"label":"INPROGRESS"},{"value":3,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}], employeesListProjectCnt=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2d236ed2, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@74576bd2, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@243a1440, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4843a4b8, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7e20069c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@31e6fb71, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@458a6119, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@10b96b74, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6ed39b19, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6868d8c1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7efcee7c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@25c5d81c]}]
+2021-04-12 15:40:47.913 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:42:04.787 DEBUG 12408 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2021-04-12 15:42:04.787 DEBUG 12408 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:42:04.796 DEBUG 12408 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=3.0.0, projectsList=[com.jrp.pma.entities.Project@6506587, com.jrp.pma.entities.Project@7814013e, com.jrp.pma.entities.Project@631cbcff, com.jrp.pma.entities.Project@70a1cc80, com.jrp.pma.entities.Project@7558f34e, com.jrp.pma.entities.Project@2d1d112a, com.jrp.pma.entities.Project@2b60ab32, com.jrp.pma.entities.Project@555bb712], projectStatusCnt=[{"value":4,"label":"INPROGRESS"},{"value":3,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}], employeesListProjectCnt=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@29966f10, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@68cde9aa, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1481ea55, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2fd1b378, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@35a5b77d, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@322298da, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@296a1f89, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@b8223af, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@130473fd, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3546dd0f, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4ca90a79, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@56acd718]}]
+2021-04-12 15:42:04.797 DEBUG 12408 --- [http-nio-8080-exec-9] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:42:21.270 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2021-04-12 15:42:21.270 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:42:21.278 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=3.0.0, projectsList=[com.jrp.pma.entities.Project@1b0fbdd6, com.jrp.pma.entities.Project@66aca601, com.jrp.pma.entities.Project@5bfaed0e, com.jrp.pma.entities.Project@70b9f316, com.jrp.pma.entities.Project@163e11da, com.jrp.pma.entities.Project@15a121b2, com.jrp.pma.entities.Project@19bf2c95, com.jrp.pma.entities.Project@26215df7], projectStatusCnt=[{"value":4,"label":"INPROGRESS"},{"value":3,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}], employeesListProjectCnt=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3d7c52a1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@f74ff95, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@133ca79a, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1367920a, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4cd1339d, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@64f1f5c5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@12078eb6, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3d5fa93e, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@785738d3, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@13e3b5c1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3d3feb35, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7de9a3f5]}]
+2021-04-12 15:42:21.278 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:42:34.750 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2021-04-12 15:42:34.751 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:42:34.759 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.jrp.pma.entities.Project@588faf41, com.jrp.pma.entities.Project@29267d94, com.jrp.pma.entities.Project@317c0560, com.jrp.pma.entities.Project@681ee62c, com.jrp.pma.entities.Project@4d4ea9c9, com.jrp.pma.entities.Project@571eb729, com.jrp.pma.entities.Project@698ffaf, com.jrp.pma.entities.Project@19a856d6]}]
+2021-04-12 15:42:34.759 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:42:36.605 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:42:36.605 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:42:36.612 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@76037e9b, com.jrp.pma.entities.Employee@594afd38, com.jrp.pma.entities.Employee@23c326a, com.jrp.pma.entities.Employee@6acfea50, com.jrp.pma.entities.Employee@755a634, com.jrp.pma.entities.Employee@9f828db, com.jrp.pma.entities.Employee@6a34f4ec, com.jrp.pma.entities.Employee@7f3c1e90, com.jrp.pma.entities.Employee@55727345, com.jrp.pma.entities.Employee@1d8437c0, com.jrp.pma.entities.Employee@505a3308, com.jrp.pma.entities.Employee@4f0d6f0d, com.jrp.pma.entities.Employee@923c5f2]}]
+2021-04-12 15:42:36.612 DEBUG 12408 --- [http-nio-8080-exec-1] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:45:37.132 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:45:37.132 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:45:37.139 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@1f48239b, com.jrp.pma.entities.Employee@2371e0f7, com.jrp.pma.entities.Employee@1d127228, com.jrp.pma.entities.Employee@4eab7b4b, com.jrp.pma.entities.Employee@10a1ddfe, com.jrp.pma.entities.Employee@3c7bf145, com.jrp.pma.entities.Employee@327657d0, com.jrp.pma.entities.Employee@271203f6, com.jrp.pma.entities.Employee@394264c7, com.jrp.pma.entities.Employee@5ad04b73, com.jrp.pma.entities.Employee@5a985f2e, com.jrp.pma.entities.Employee@6d22fa38, com.jrp.pma.entities.Employee@476ccf07]}]
+2021-04-12 15:45:37.139 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:45:54.149 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:45:54.149 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:45:54.153 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@bd410b7, com.jrp.pma.entities.Employee@581e2dc1, com.jrp.pma.entities.Employee@37c6b8a4, com.jrp.pma.entities.Employee@1e00ffe7, com.jrp.pma.entities.Employee@35fa1538, com.jrp.pma.entities.Employee@1c234663, com.jrp.pma.entities.Employee@1ea2cedb, com.jrp.pma.entities.Employee@7c4f52f, com.jrp.pma.entities.Employee@6272633a, com.jrp.pma.entities.Employee@64e42149, com.jrp.pma.entities.Employee@6c38ff18, com.jrp.pma.entities.Employee@4cf5023d, com.jrp.pma.entities.Employee@3d6fd32a]}]
+2021-04-12 15:45:54.153 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:47:14.334 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2021-04-12 15:47:14.334 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:47:14.339 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.jrp.pma.entities.Project@5366ed8a, com.jrp.pma.entities.Project@562b6530, com.jrp.pma.entities.Project@2759532b, com.jrp.pma.entities.Project@5d6c8f9b, com.jrp.pma.entities.Project@39822301, com.jrp.pma.entities.Project@340dc3e4, com.jrp.pma.entities.Project@59201e45, com.jrp.pma.entities.Project@608952ad]}]
+2021-04-12 15:47:14.339 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:47:18.553 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:47:18.554 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:47:18.561 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@68005a5, com.jrp.pma.entities.Employee@2b1dc2e6, com.jrp.pma.entities.Employee@1f92659c, com.jrp.pma.entities.Employee@253b72f2, com.jrp.pma.entities.Employee@2310f6dd, com.jrp.pma.entities.Employee@66df1aab, com.jrp.pma.entities.Employee@6a6d2d69, com.jrp.pma.entities.Employee@143f6e34, com.jrp.pma.entities.Employee@30bdc470, com.jrp.pma.entities.Employee@2e299a8e, com.jrp.pma.entities.Employee@2d2cfc47, com.jrp.pma.entities.Employee@420d7918, com.jrp.pma.entities.Employee@1ccdab6d]}]
+2021-04-12 15:47:18.561 DEBUG 12408 --- [http-nio-8080-exec-4] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:47:57.773 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2021-04-12 15:47:57.773 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:47:57.776 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.jrp.pma.entities.Project@11058446, com.jrp.pma.entities.Project@350ed2db, com.jrp.pma.entities.Project@39ea3116, com.jrp.pma.entities.Project@5e9747f2, com.jrp.pma.entities.Project@630ddfd2, com.jrp.pma.entities.Project@20d65162, com.jrp.pma.entities.Project@48dca6ef, com.jrp.pma.entities.Project@2c90c0d1]}]
+2021-04-12 15:47:57.776 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:05.628 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2021-04-12 15:48:05.629 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:05.650 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=3.0.0, projectsList=[com.jrp.pma.entities.Project@325c155b, com.jrp.pma.entities.Project@5682638a, com.jrp.pma.entities.Project@71a4c14d, com.jrp.pma.entities.Project@684e78, com.jrp.pma.entities.Project@52cc75e3, com.jrp.pma.entities.Project@1797d203, com.jrp.pma.entities.Project@40eec715, com.jrp.pma.entities.Project@2b75afe], projectStatusCnt=[{"value":4,"label":"INPROGRESS"},{"value":3,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}], employeesListProjectCnt=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7d8c05ff, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@234f0e9a, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@11c40ec5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@42c37f64, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5f7d293e, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@41dc795, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@351e53f5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6c7f226d, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5afdd205, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@303697a0, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@77f0fba8, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6289c371]}]
+2021-04-12 15:48:05.650 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:09.524 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2021-04-12 15:48:09.524 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:09.540 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=3.0.0, projectsList=[com.jrp.pma.entities.Project@1f3e4c2c, com.jrp.pma.entities.Project@7f619dfc, com.jrp.pma.entities.Project@5cca2a57, com.jrp.pma.entities.Project@3cb1d91e, com.jrp.pma.entities.Project@5103ad88, com.jrp.pma.entities.Project@227e4429, com.jrp.pma.entities.Project@2feb4aa3, com.jrp.pma.entities.Project@1d201f69], projectStatusCnt=[{"value":4,"label":"INPROGRESS"},{"value":3,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}], employeesListProjectCnt=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6b619ccf, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@efa10c9, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@77374c79, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@111c0a60, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@76fc7b68, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@285e4126, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@654794d0, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1479dd12, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@14bc3ce, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5bc6e5b0, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@27e0b0c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5835c71c]}]
+2021-04-12 15:48:09.541 DEBUG 12408 --- [http-nio-8080-exec-7] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:25.144 DEBUG 12408 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:48:25.144 DEBUG 12408 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:25.152 DEBUG 12408 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@551461ee, com.jrp.pma.entities.Employee@34c94418, com.jrp.pma.entities.Employee@1ad718eb, com.jrp.pma.entities.Employee@387d75c6, com.jrp.pma.entities.Employee@4e106836, com.jrp.pma.entities.Employee@30871c68, com.jrp.pma.entities.Employee@12355ad3, com.jrp.pma.entities.Employee@41b5ce16, com.jrp.pma.entities.Employee@ca94fce, com.jrp.pma.entities.Employee@445766f, com.jrp.pma.entities.Employee@3c1e47f6, com.jrp.pma.entities.Employee@5334fb1d, com.jrp.pma.entities.Employee@15a5098a]}]
+2021-04-12 15:48:25.152 DEBUG 12408 --- [http-nio-8080-exec-2] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:26.518 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2021-04-12 15:48:26.518 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:26.518 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@5a7ea8b8}]
+2021-04-12 15:48:26.519 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:34.801 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:48:34.801 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:48:34.806 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@7e10df4d, com.jrp.pma.entities.Employee@62b01347, com.jrp.pma.entities.Employee@724a97af, com.jrp.pma.entities.Employee@22b627f5, com.jrp.pma.entities.Employee@5a247e59, com.jrp.pma.entities.Employee@38ec7471, com.jrp.pma.entities.Employee@1e3d7b2c, com.jrp.pma.entities.Employee@d276e91, com.jrp.pma.entities.Employee@74880fda, com.jrp.pma.entities.Employee@2f1cb2c6, com.jrp.pma.entities.Employee@5a8d5812, com.jrp.pma.entities.Employee@6ce8f634, com.jrp.pma.entities.Employee@582ac2ac]}]
+2021-04-12 15:48:34.807 DEBUG 12408 --- [http-nio-8080-exec-10] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:50:01.992 DEBUG 12408 --- [http-nio-8080-exec-3] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2021-04-12 15:50:01.992 DEBUG 12408 --- [http-nio-8080-exec-3] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:50:02.009 DEBUG 12408 --- [http-nio-8080-exec-3] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=3.0.0, projectsList=[com.jrp.pma.entities.Project@91a3bb0, com.jrp.pma.entities.Project@1b855ac2, com.jrp.pma.entities.Project@15a4cf6c, com.jrp.pma.entities.Project@67ccbc38, com.jrp.pma.entities.Project@3f53ccca, com.jrp.pma.entities.Project@e31d2a8, com.jrp.pma.entities.Project@3d5da3ad, com.jrp.pma.entities.Project@3f72e542], projectStatusCnt=[{"value":4,"label":"INPROGRESS"},{"value":3,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}], employeesListProjectCnt=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4cfad939, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4cd34654, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@31779cd8, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@cf39d30, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@165abe86, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@406dabff, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4d716e76, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5dfb70f5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1e165b42, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3309392c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@754de3e5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@73b74961]}]
+2021-04-12 15:50:02.009 DEBUG 12408 --- [http-nio-8080-exec-3] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:50:12.063 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2021-04-12 15:50:12.064 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:50:12.070 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.jrp.pma.entities.Project@78e8721b, com.jrp.pma.entities.Project@5e2dba1a, com.jrp.pma.entities.Project@11398687, com.jrp.pma.entities.Project@6b9a9b47, com.jrp.pma.entities.Project@50d94485, com.jrp.pma.entities.Project@6397d9ee, com.jrp.pma.entities.Project@3e4776a5, com.jrp.pma.entities.Project@1b89289]}]
+2021-04-12 15:50:12.070 DEBUG 12408 --- [http-nio-8080-exec-6] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:50:13.841 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2021-04-12 15:50:13.841 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:50:13.850 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.jrp.pma.entities.Employee@f455f38, com.jrp.pma.entities.Employee@2a4bd703, com.jrp.pma.entities.Employee@30fef7cc, com.jrp.pma.entities.Employee@30b49ae, com.jrp.pma.entities.Employee@26927a68, com.jrp.pma.entities.Employee@52955276, com.jrp.pma.entities.Employee@15928f7f, com.jrp.pma.entities.Employee@4c0df25a, com.jrp.pma.entities.Employee@79799089, com.jrp.pma.entities.Employee@1876b32, com.jrp.pma.entities.Employee@eff50a, com.jrp.pma.entities.Employee@23d3586f, com.jrp.pma.entities.Employee@161b7944]}]
+2021-04-12 15:50:13.850 DEBUG 12408 --- [http-nio-8080-exec-5] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:50:23.503 DEBUG 12408 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : ******************* BEFORE METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2021-04-12 15:50:23.504 DEBUG 12408 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:50:23.506 DEBUG 12408 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : ******************* AFTER METHOD EXECUTION ******************* 
+ com.jrp.pma.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.jrp.pma.entities.Employee@52d0e7a5}]
+2021-04-12 15:50:23.506 DEBUG 12408 --- [http-nio-8080-exec-8] c.j.pma.logging.ApplicationLoggerAspect  : ------------------------------------------------------------------------------------- 
+
+
+
+2021-04-12 15:52:39.425  INFO 12408 --- [RMI TCP Connection(342)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-12 15:52:39.463  INFO 12408 --- [RMI TCP Connection(342)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 15:52:39.465  INFO 12408 --- [RMI TCP Connection(342)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
